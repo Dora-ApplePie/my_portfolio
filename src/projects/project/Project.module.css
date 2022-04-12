@@ -1,0 +1,35 @@
+.project {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    background-color: #9f9b9b;
+    border: 1px solid black;
+}
+
+.imgContainer {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://www.belanta.vet/vet-blog/wp-content/uploads/2019/11/4-5.jpg');
+}
+
+a.button {
+    background-color: darkkhaki;
+    text-decoration: none;
+    color: #282c34;
+    padding: 10px 30px;
+}
+
+.title {
+    background-color: #808080;
+    margin: 10px 10px 0;
+}
+
+.description {
+    background-color: #808080;
+    margin: 10px;
+}
