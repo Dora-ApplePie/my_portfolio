@@ -10,7 +10,7 @@
 
 .contactsForm {
     display: flex;
-    max-width: 280px;
+    width: 280px;
     height: 100px;
     margin-bottom: 20px;
     flex-direction: column;
