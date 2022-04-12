@@ -8,9 +8,9 @@ function Contacts() {
             <div className={`${style.contactsContainer} ${styleContainer.container}`}>
                 <h2 className={style.title}>Contacts</h2>
                 <form className={style.contactsForm}>
-                    <input/>
-                    <input/>
-                    <textarea/>
+                    <input className={style.input}/>
+                    <input className={style.input}/>
+                    <textarea className={style.textarea}/>
                 </form>
                 <a href={'#'} className={style.button}>Send</a>
             </div>
