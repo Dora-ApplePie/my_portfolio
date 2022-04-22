@@ -1,5 +1,5 @@
 .skillsBlock {
-    background-color: #61dafb;
+    background-color: #0E0E0E;
 }
 
 .skillsContainer {
@@ -7,9 +7,6 @@
     justify-content: flex-start;
 }
 
-.title {
-    background-color: white;
-}
 
 .skills {
     display: flex;

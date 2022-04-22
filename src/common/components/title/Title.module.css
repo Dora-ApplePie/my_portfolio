@@ -1,0 +1,32 @@
+.title {
+    position: relative;
+    /*margin-bottom: 40px;*/
+    padding: 80px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title h2{
+    font-size: 56px;
+    font-weight: 900!important;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.title span {
+    color: #ffb400;
+}
+
+.title .titleBg {
+    font-size: 110px;
+    left: 50%;
+    letter-spacing: 10px;
+    line-height: .7;
+    position: absolute;
+    bottom: 70px;
+    top: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+    transform: translate(-50%, 50%);
+    color: hsla(0,0%,100%,.07);
+}

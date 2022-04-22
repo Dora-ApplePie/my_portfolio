@@ -1,5 +1,5 @@
 .contactsBlock {
-    background-color: #8ebf80;
+    background-color: #0E0E0E;
 }
 
 .contactsContainer {
@@ -17,21 +17,12 @@
     border: 1px solid black;
 }
 
-.input {
-    margin: 0px;
+.contactsForm input, .contactsForm textarea {
+    width: 100%;
 }
 
-.textarea {
-    margin: 0px;
-}
-
-a.button {
-    text-decoration: none;
+.submitBtn {
     color: #282c34;
     background-color: wheat;
     padding: 10px 20px;
-}
-
-.title {
-    background-color: #ffffff;
 }
