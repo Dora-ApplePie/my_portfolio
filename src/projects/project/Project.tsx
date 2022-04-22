@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Project.module.css';
+import style from './Project.module.scss';
 
 type PropsType = {
     title: string
@@ -13,7 +13,7 @@ function Project(props: PropsType) {
     return (
         <div className={style.project}>
             <div className={style.imgContainer} style={props.style}>
-                <a href={"#"} className={style.button}>Look</a>
+                <a href={'#'} className={style.button}>View</a>
             </div>
             <div className={style.projectInfo}>
                 <h3 className={style.ProjectTitle}>{props.title}</h3>

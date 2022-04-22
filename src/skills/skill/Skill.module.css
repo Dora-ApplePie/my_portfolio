@@ -5,6 +5,7 @@
     align-items: center;
     text-align: center;
     background-color: greenyellow;
+    padding-bottom: 40px;
 }
 
 .icon {
@@ -15,5 +16,5 @@
 
 .description {
     border: 1px solid;
-    color: #0E0E0E;
+    color: #fff;
 }
