@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.cdce4031.css",
-    "main.js": "/my_portfolio/static/js/main.cfd901b0.js",
+    "main.css": "/my_portfolio/static/css/main.bccbcb0e.css",
+    "main.js": "/my_portfolio/static/js/main.f9eaf75c.js",
     "static/js/787.28cb0dcd.chunk.js": "/my_portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/mainPhoto.jpg": "/my_portfolio/static/media/mainPhoto.6178c2e8132e5462d5a4.jpg",
     "static/media/social.jpeg": "/my_portfolio/static/media/social.3e51e7332496439be489.jpeg",
@@ -18,12 +18,12 @@
     "static/media/html-1.svg": "/my_portfolio/static/media/html-1.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/material-ui-1.svg": "/my_portfolio/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/axios_logo_icon.svg": "/my_portfolio/static/media/axios_logo_icon.6d170f64a4a89ba89dd79fb56a486bbd.svg",
-    "main.cdce4031.css.map": "/my_portfolio/static/css/main.cdce4031.css.map",
-    "main.cfd901b0.js.map": "/my_portfolio/static/js/main.cfd901b0.js.map",
+    "main.bccbcb0e.css.map": "/my_portfolio/static/css/main.bccbcb0e.css.map",
+    "main.f9eaf75c.js.map": "/my_portfolio/static/js/main.f9eaf75c.js.map",
     "787.28cb0dcd.chunk.js.map": "/my_portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdce4031.css",
-    "static/js/main.cfd901b0.js"
+    "static/css/main.bccbcb0e.css",
+    "static/js/main.f9eaf75c.js"
   ]
 }
