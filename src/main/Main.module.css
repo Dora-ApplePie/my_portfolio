@@ -5,7 +5,7 @@
 }
 
 .intro {
-    max-width: 600px;
+    max-width: 500px;
     /*background-color: white;*/
     z-index: 11;
     text-align: left !important;
@@ -21,7 +21,7 @@
     position: relative;
     color: #ffb400;
     text-transform: uppercase;
-    font-size: 51px;
+    font-size: 40px;
     line-height: 62px;
     font-weight: 700;
     margin: 18px 0 10px;
@@ -29,7 +29,7 @@
 
 .intro span {
     text-transform: uppercase;
-    font-size: 51px;
+    font-size: 40px;
     line-height: 62px;
     font-weight: 700;
 }
@@ -46,7 +46,7 @@ h1::before {
 }
 
 .photo {
-    width: 40%;
+    width: 45%;
     height: calc(100vh - 80px);
     background-image: url('../assets/image/mainPhoto.jpg');
     background-size: cover;
