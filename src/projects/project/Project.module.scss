@@ -1,3 +1,5 @@
+@import '../../common/styles/sass/variables.scss';
+
 .project {
   display: flex;
   width: 450px;
@@ -14,7 +16,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-bottom: 4px solid #ffb400;
+    border-bottom: 4px solid $primaryColor;
     border-radius: 5px 5px 0 0;
 
     &::before {
@@ -31,9 +33,9 @@
     a.button {
       position: relative;
       border: none;
-      background-color: #ffb400;
+      background-color: $primaryColor;
       text-decoration: none;
-      color: #0E0E0E;
+      color: $bgColor;
       padding: 10px 30px;
       font-weight: 500;
       line-height: 1.6;
@@ -45,12 +47,12 @@
 
   .projectInfo {
     padding: 20px 25px 25px;
-    background-color: #252525;
+    background-color: $bgSecondColor;
     border-radius: 0 0 5px 5px;
 
     .ProjectTitle {
       margin: 0 0 8px 0;
-      color: #fff;
+      color: $textColor;
       cursor: pointer;
       font-size: 20px;
       font-weight: 600;
@@ -64,7 +66,7 @@
       font-weight: 500;
       line-height: 1.6;
       cursor: pointer;
-      color: hsla(0, 0%, 100%, .8);
+      color: $textSecondColor;
       font-family: 'Open Sans', sans-serif;
     }
   }

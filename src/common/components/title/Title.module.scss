@@ -1,3 +1,5 @@
+@import '../../../common/styles/sass/variables.scss';
+
 .title {
   position: relative;
   /*margin-bottom: 40px;*/
@@ -7,13 +9,13 @@
   h2 {
     font-size: 56px;
     font-weight: 900 !important;
-    color: #fff;
+    color: $textColor;
     text-transform: uppercase;
     margin: 0;
   }
 
   span {
-    color: #ffb400;
+    color: $primaryColor;
   }
 
   .titleBg {
