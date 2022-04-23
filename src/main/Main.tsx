@@ -4,15 +4,12 @@ import styleContainer from '../common/styles/container.module.css'
 
 function Main() {
     return (
-        <div className={style.mainBlock}>
+        <div id={"main"} className={style.mainBlock}>
             <div className={styleContainer.container}>
+                <div className={style.photo}></div>
                 <div className={style.intro}>
-                    <span>Hi There</span>
-                    <h1>I am DARIA GOLENKO</h1>
-                    <p>A Frontend Developer.</p>
-                </div>
-                <div className={style.photo}>
-
+                    <h1>I'm DARIA GOLENKO.</h1>
+                    <span>Frontend React Developer</span>
                 </div>
             </div>
         </div>

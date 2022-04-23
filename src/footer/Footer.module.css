@@ -9,6 +9,7 @@
 
 span {
     color: #ffffff;
+    padding-bottom: 40px;
 }
 
 .SocialContainer {
@@ -18,11 +19,13 @@ span {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    border: 1px solid black;
+    padding-bottom: 60px;
+    z-index: 11;
 }
 
-.social {
-    height: 60px;
-    width: 60px;
-    background-color: aquamarine;
+
+.socialImg {
+    color: #ffffff;
+    font-size: 40px;
+    cursor: pointer;
 }

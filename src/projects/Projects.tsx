@@ -10,20 +10,20 @@ import socialImg from "../assets/image/social.jpeg";
 function Projects() {
 
     const social = {
-        backgroundImage: `url(${todoImg})`,
-    };
-
-    const todolist = {
         backgroundImage: `url(${socialImg})`,
     };
 
+    const todolist = {
+        backgroundImage: `url(${todoImg})`,
+    };
+
     return (
-        <div className={style.projectsBlock}>
+        <div id={"projects"} className={style.projectsBlock}>
             <div className={`${style.projectsContainer} ${styleContainer.container}`}>
                 <Title text={"My "} span={"projects"} backgroundText={"works"}/>
                 <div className={style.projects}>
-                    <Project style={social} title={"Social network"} description={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}/>
-                    <Project style={todolist} title={"Todolist"} description={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, it to make a type specimen."}/>
+                    <Project style={todolist} title={"Todolist"} description={"TS, React, Redux, Hooks, RestAPI, Thunk, Axios, Material UI, Unit Tests, Storybook, SnapShot."}/>
+                    <Project style={social} title={"Social network"} description={"TS, React, Redux, RestAPI, Axios, Thunk, Classes, Routing, Unit Tests."}/>
                 </div>
             </div>
         </div>
