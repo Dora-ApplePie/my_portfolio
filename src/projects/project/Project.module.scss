@@ -1,4 +1,5 @@
 @import '../../common/styles/sass/variables.scss';
+@import '../../common/styles/sass/mixins.scss';
 
 .project {
   display: flex;
@@ -54,20 +55,14 @@
       margin: 0 0 8px 0;
       color: $textColor;
       cursor: pointer;
-      font-size: 20px;
-      font-weight: 600;
-      line-height: 26px;
-      font-family: 'Poppins', sans-serif;
+      @include text($fontFamily, 20px, 600, 26px);
     }
 
     .description {
       margin: 15px 0 5px;
-      font-size: 17px;
-      font-weight: 500;
-      line-height: 1.6;
       cursor: pointer;
       color: $textSecondColor;
-      font-family: 'Open Sans', sans-serif;
+      @include text($secondFontFamily, 17px, 500, 1.6);
     }
   }
 }
