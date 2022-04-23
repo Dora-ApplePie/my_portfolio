@@ -9,21 +9,70 @@
 
 .contactsForm {
     display: flex;
-    width: 280px;
-    height: 100px;
+    width: 50%;
+
     margin-bottom: 20px;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+    z-index: 11;
+}
+
+.contactsForm textarea {
+    height: 150px;
+    overflow: hidden;
+    resize: vertical;
 }
 
 .contactsForm input, .contactsForm textarea {
     width: 100%;
+    border: 1px solid #3d3d3d;
+    background: #252525;
+    color: #fff;
+    padding: 11px 26px;
+    margin: 7px 7px;
+    border-radius: 30px;
+    outline: none !important;
+    transition: .3s;
+    font-family: 'Poppins', sans-serif;
+    color: hsla(0, 0%, 100%, .8);
+    box-shadow:0 0 15px 3px rgba(0,0,0,0.06);
 }
 
 .submitBtn {
-    color: #282c34;
-    background-color: #ffffff;
+    background-color: #ffb400;
     padding: 10px 20px;
     cursor: pointer;
+    border: 1px solid #ffb400;
+    overflow: hidden;
+    color: #0E0E0E;
+    line-height: 1.4;
+    border-radius: 35px;
+    text-align: center;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
+
+.submitBtn:hover {
+    background-color: transparent;
+    border: 1px solid #ffb400;
+    color: hsla(0, 0%, 100%, .8);
+    transition: 0.5s;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: hsla(0, 0%, 100%, .8);
+    -webkit-box-shadow: 0 0 0 1000px #252525 inset;
+    transition: background-color 5000s ease-in-out 0s;
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 174, 255, 0.04) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 174, 255, 0.03) 100%);
 }

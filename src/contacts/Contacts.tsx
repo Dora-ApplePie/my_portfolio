@@ -9,9 +9,9 @@ function Contacts() {
             <div className={`${style.contactsContainer} ${styleContainer.container}`}>
                 <Title text={"Get in"} span={"touch"} backgroundText={"contact"}/>
                 <form className={style.contactsForm}>
-                    <input className={style.input}/>
-                    <input className={style.input}/>
-                    <textarea className={style.textarea}/>
+                    <input type={"text"} placeholder={"YOUR NAME"} className={style.input}/>
+                    <input type={"text"} placeholder={"YOUR EMAIL"} className={style.input}/>
+                    <textarea placeholder={"YOUR MESSAGE"} className={style.textarea}/>
                 </form>
                 <button type="submit" className={style.submitBtn}>Send</button>
             </div>

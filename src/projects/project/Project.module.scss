@@ -12,7 +12,7 @@
     display: flex;
     width: 100%;
     height: 300px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-size: cover;
     background-position: center;
@@ -31,18 +31,34 @@
       right: 0;
     }
 
-    a.button {
+    a.button, a.buttonSecond {
       position: relative;
-      border: none;
+      border: 1px solid #ffb400;
       background-color: $primaryColor;
       text-decoration: none;
       color: $bgColor;
       padding: 10px 30px;
-      font-weight: 500;
+      font-weight: 400;
       line-height: 1.6;
       z-index: 1;
       border-radius: 5px;
       font-family: 'Poppins', sans-serif;
+      text-transform: uppercase;
+      &:hover {
+        background-color: transparent;
+        border: 1px solid #ffb400;
+        color: hsla(0, 0%, 100%, .8);
+        transition: 0.5s;
+      }
+    }
+    a.buttonSecond {
+      background-color: transparent;
+      color: hsla(0, 0%, 100%, .8);
+      &:hover {
+        background-color: $primaryColor;
+        color: $bgColor;
+        transition: 0.5s;
+      }
     }
   }
 
