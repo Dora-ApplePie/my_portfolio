@@ -22,8 +22,8 @@ function Projects() {
             <div className={`${style.projectsContainer} ${styleContainer.container}`}>
                 <Title text={"My "} span={"projects"} backgroundText={"works"}/>
                 <div className={style.projects}>
-                    <Project style={todolist} title={"Todolist"} description={"TS, React, Redux, Hooks, RestAPI, Thunk, Axios, Material UI, Unit Tests, Storybook, SnapShot."}/>
-                    <Project style={social} title={"Social network"} description={"TS, React, Redux, RestAPI, Axios, Thunk, Classes, Routing, Unit Tests."}/>
+                    <Project codeLink={'https://github.com/Dora-ApplePie/todolist-app'} viewLink={'https://dora-applepie.github.io/Todolist-React-TS/'} style={todolist} title={"Todolist"} description={"TS, React, Redux, Hooks, dispatch, Functional components, RestAPI, Thunk, Axios, Material UI, Unit Tests, Storybook, SnapShot testing."}/>
+                    <Project codeLink={'https://github.com/Dora-ApplePie/SocialNetwork'} viewLink={'https://dora-applepie.github.io/SocialNetwork/'} style={social} title={"Social network"} description={"TS, React, Redux, connect, RestAPI, Axios, Thunk, React Class components, React Router DOM, Axios instance."}/>
                 </div>
             </div>
         </div>

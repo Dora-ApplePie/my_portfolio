@@ -2,6 +2,7 @@
     position: relative;
     height: 100vh;
     background-color: #0E0E0E;
+    padding: 60px 0;
 }
 
 .intro {
@@ -46,8 +47,8 @@ h1::before {
 }
 
 .photo {
-    width: 45%;
-    height: calc(100vh - 80px);
+    width: 40%;
+    height: calc(100vh - 120px);
     background-image: url('../assets/image/mainPhoto.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -58,6 +59,30 @@ h1::before {
     top: 40px;
     box-shadow: 0 0 7px rgb(0 0 0 / 90%);
 }
+
+a.buttonCV {
+    position: relative;
+    border: 1px solid #ffb400;
+    background-color: transparent;
+    text-decoration: none;
+    color:  hsla(0, 0%, 100%, .8);;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    z-index: 1;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+a.buttonCV:hover {
+    background-color: #ffb400;
+    border: 1px solid #ffb400;
+    color: #0E0E0E;
+    transition: 0.5s;
+}
+
 
 .mainBlock::before {
     content: '';

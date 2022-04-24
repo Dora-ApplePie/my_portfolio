@@ -10,6 +10,7 @@ function Main() {
                 <div className={style.intro}>
                     <h1>I'm DARIA GOLENKO.</h1>
                     <span>Frontend React Developer</span>
+                    <div><a href={'#'} className={style.buttonCV}>Download CV</a></div>
                 </div>
             </div>
         </div>

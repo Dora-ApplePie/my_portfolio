@@ -1,5 +1,6 @@
 .footerBlock {
     background-color: #0E0E0E;
+    padding: 60px 0;
 }
 
 .footerContainer {
@@ -9,7 +10,6 @@
 
 span {
     color: #ffffff;
-    padding-bottom: 40px;
 }
 
 .SocialContainer {
