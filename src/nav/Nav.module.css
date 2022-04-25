@@ -16,6 +16,6 @@
     color: #ffb400;
 }
 
-.active {
-    border-bottom: 3px solid #ffb400;
+.nav a.active {
+    color: #ffb400;
 }

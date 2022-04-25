@@ -4,7 +4,7 @@ import style from './Nav.module.css';
 function Nav() {
     return (
         <div className={style.nav}>
-            <a href={"#main"}>Main</a>
+            <a className={style.active} href={"#main"}>Main</a>
             <a href={"#skills"}>Skills</a>
             <a href={"#projects"}>Project</a>
             <a href={"#contacts"}>Contacts</a>
