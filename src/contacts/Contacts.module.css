@@ -11,7 +11,6 @@
 .contactsForm {
     display: flex;
     width: 50%;
-
     margin-bottom: 20px;
     flex-direction: column;
     justify-content: space-between;
@@ -75,4 +74,10 @@ select:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0 1000px #252525 inset;
     transition: background-color 5000s ease-in-out 0s;
     background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 174, 255, 0.04) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 174, 255, 0.03) 100%);
+}
+
+@media screen and (max-width: 1000px) {
+    .contactsForm {
+        width: 80%;
+    }
 }

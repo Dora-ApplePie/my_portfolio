@@ -31,4 +31,15 @@
     transform: translate(-50%, 50%);
     color: hsla(0, 0%, 100%, .07);
   }
+  @media screen and (max-width: 676px) {
+    .titleBg {
+      font-size: 70px;
+    }
+  }
+
+  @media screen and (max-width: 460px) {
+    .titleBg {
+      font-size: 50px;
+    }
+  }
 }

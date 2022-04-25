@@ -15,10 +15,12 @@
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: flex-start;
-      @media screen and (max-width: 1132px) {
-        .projects {
-          justify-content: center;
-        }
+
+    }
+
+    @media screen and (max-width: 1155px) {
+      .projects {
+        justify-content: center;
       }
     }
   }

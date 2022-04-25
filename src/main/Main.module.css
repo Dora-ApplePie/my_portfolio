@@ -5,6 +5,16 @@
     padding: 60px 0;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+}
+
 .intro {
     max-width: 500px;
     /*background-color: white;*/
@@ -94,4 +104,29 @@ a.buttonCV:hover {
     left: -83%;
     top: -50%;
 
+}
+
+@media screen and (max-width: 1155px) {
+    .container {
+       flex-direction: column-reverse;
+        flex-wrap: nowrap;
+    }
+    .intro {
+        margin-bottom: 60px;
+    }
+    .photo {
+        width: 60%;
+    }
+    .mainBlock {
+        padding: 0 0 60px 0;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .mainBlock {
+        height: auto;
+    }
+    .photo {
+        height: calc(60vh - 120px);
+    }
 }
