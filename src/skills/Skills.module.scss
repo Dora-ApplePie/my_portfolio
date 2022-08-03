@@ -1,5 +1,7 @@
+@import '../common/styles/sass/variables.scss';
+
 .skillsBlock {
-  background-color: #222222;
+  background-color: $bgSecondColor;
   position: relative;
   padding: 60px 0;
 }
@@ -21,5 +23,3 @@
     justify-content: center;
   }
 }
-
-/*# sourceMappingURL=Skills.module.css.map */

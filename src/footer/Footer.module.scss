@@ -1,0 +1,32 @@
+@import '../common/styles/sass/variables.scss';
+
+.footerBlock {
+    background-color: $bgColor;
+    padding: 60px 0;
+}
+
+.footerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+span {
+    color: $textColor;
+}
+
+.SocialContainer {
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 60px;
+    z-index: 11;
+}
+
+.socialImg {
+    color: $textColor;
+    font-size: 40px;
+    cursor: pointer;
+}

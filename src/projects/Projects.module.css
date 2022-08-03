@@ -1,0 +1,23 @@
+.projectsBlock {
+  background-color: #0E0E0E;
+  padding: 60px 0;
+}
+.projectsBlock .projectsContainer {
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+.projectsBlock .projectsContainer .projects {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media screen and (max-width: 1155px) {
+  .projectsBlock .projectsContainer .projects {
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=Projects.module.css.map */

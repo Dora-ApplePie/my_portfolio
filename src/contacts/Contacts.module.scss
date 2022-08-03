@@ -1,0 +1,83 @@
+@import '../common/styles/sass/variables.scss';
+
+.contactsBlock {
+    background-color: $bgSecondColor;
+    padding: 60px 0;
+}
+
+.contactsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contactsForm {
+    display: flex;
+    width: 50%;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 11;
+}
+
+.contactsForm textarea {
+    height: 150px;
+    overflow: hidden;
+    resize: vertical;
+}
+
+.contactsForm input, .contactsForm textarea {
+    width: 100%;
+    border: 1px solid #3d3d3d;
+    background: $bgSecondColor;
+    padding: 11px 26px;
+    margin: 7px 7px;
+    border-radius: 30px;
+    outline: none !important;
+    transition: .3s;
+    font-family: 'Poppins', sans-serif;
+    color: $textSecondColor;
+    box-shadow:0 0 15px 3px rgba(0,0,0,0.06);
+}
+
+.submitBtn {
+    background-color: $primaryColor;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid $primaryColor;
+    overflow: hidden;
+    color: $bgColor;
+    line-height: 1.4;
+    border-radius: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.submitBtn:hover {
+    background-color: transparent;
+    border: 1px solid $primaryColor;
+    color: $textSecondColor;
+    transition: 0.5s;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: $textSecondColor;
+    -webkit-box-shadow: 0 0 0 1000px $bgSecondColor inset;
+    transition: background-color 5000s ease-in-out 0s;
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 174, 255, 0.04) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 174, 255, 0.03) 100%);
+}
+
+@media screen and (max-width: 1000px) {
+    .contactsForm {
+        width: 80%;
+    }
+}

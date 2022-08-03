@@ -1,28 +1,30 @@
 .skill {
-    display: flex;
-    width: 250px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: #0E0E0E;
-    border: 1px solid #ffb400;
-    border-radius: 15px;
-    padding: 20px 20px;
-    margin: 15px 19px;
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #0E0E0E;
+  border: 1px solid #ffb400;
+  border-radius: 15px;
+  padding: 20px 20px;
+  margin: 15px 19px;
 }
 
 .icon {
-    width: 60px;
-    height: 60px;
+  width: 60px;
+  height: 60px;
 }
 
 .skill h3 {
-    color: #fff;
+  color: #fff;
 }
 
 .description {
-    color: hsla(0, 0%, 100%, .8);
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 1.6;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.6;
 }
+
+/*# sourceMappingURL=Skill.module.css.map */

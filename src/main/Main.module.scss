@@ -1,18 +1,21 @@
+@import '../common/styles/sass/variables.scss';
+
 .mainBlock {
   position: relative;
   height: 100vh;
-  background-color: #0E0E0E;
+  background-color: $bgColor;
   padding: 60px 0;
-}
-.mainBlock::before {
-  content: "";
-  position: absolute;
-  height: 200%;
-  width: 100%;
-  transform: rotate(-15deg);
-  background-color: #ffb400;
-  left: -83%;
-  top: -50%;
+
+  &::before {
+    content: '';
+    position: absolute;
+    height: 200%;
+    width: 100%;
+    transform: rotate(-15deg);
+    background-color: $primaryColor;
+    left: -83%;
+    top: -50%;
+  }
 }
 
 .container {
@@ -35,38 +38,42 @@
   margin: 18px 0 10px;
   position: relative;
   padding-left: 70px;
-}
-.intro h1 {
-  position: relative;
-  color: #ffb400;
-  text-transform: uppercase;
-  font-size: 40px;
-  line-height: 62px;
-  font-weight: 700;
-  margin: 18px 0 10px;
-}
-.intro span {
-  text-transform: uppercase;
-  font-size: 40px;
-  line-height: 62px;
-  font-weight: 700;
+
+  h1 {
+    position: relative;
+    color: $primaryColor;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 62px;
+    font-weight: 700;
+    margin: 18px 0 10px;
+  }
+
+  span {
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 62px;
+    font-weight: 700;
+  }
 }
 
-h1::before {
-  content: "";
-  background-color: #ffb400;
-  position: absolute;
-  left: -60px;
-  top: 29px;
-  height: 4px;
-  width: 40px;
-  border-radius: 10px;
+h1 {
+  &::before {
+    content: "";
+    background-color: $primaryColor;
+    position: absolute;
+    left: -60px;
+    top: 29px;
+    height: 4px;
+    width: 40px;
+    border-radius: 10px;
+  }
 }
 
 .photo {
   width: 40%;
   height: calc(100vh - 120px);
-  background-image: url("../assets/image/mainPhoto.jpg");
+  background-image: url('../assets/image/mainPhoto.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -74,29 +81,30 @@ h1::before {
   border-radius: 30px;
   left: 40px;
   top: 40px;
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 7px rgb(0 0 0 / 90%);
 }
 
 a.buttonCV {
   position: relative;
-  border: 1px solid #ffb400;
+  border: 1px solid $primaryColor;
   background-color: transparent;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.8);
+  color: $textSecondColor;
   padding: 10px 30px;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.6;
   z-index: 1;
   border-radius: 5px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
-}
-a.buttonCV:hover {
-  background-color: #ffb400;
-  border: 1px solid #ffb400;
-  color: #0E0E0E;
-  transition: 0.5s;
+
+  &:hover {
+    background-color: $primaryColor;
+    border: 1px solid $primaryColor;
+    color: $bgColor;
+    transition: 0.5s;
+  }
 }
 
 @media screen and (max-width: 1155px) {
@@ -104,27 +112,22 @@ a.buttonCV:hover {
     flex-direction: column-reverse;
     flex-wrap: nowrap;
   }
-
   .intro {
     margin-bottom: 60px;
   }
-
   .photo {
     width: 60%;
   }
-
   .mainBlock {
     padding: 0 0 60px 0;
   }
 }
+
 @media screen and (max-width: 570px) {
   .mainBlock {
     height: auto;
   }
-
   .photo {
     height: calc(60vh - 120px);
   }
 }
-
-/*# sourceMappingURL=Main.module.css.map */

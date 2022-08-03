@@ -33,7 +33,7 @@
 
     a.button, a.buttonSecond {
       position: relative;
-      border: 1px solid #ffb400;
+      border: 1px solid $primaryColor;
       background-color: $primaryColor;
       text-decoration: none;
       color: $bgColor;
@@ -44,16 +44,19 @@
       border-radius: 5px;
       font-family: 'Poppins', sans-serif;
       text-transform: uppercase;
+
       &:hover {
         background-color: transparent;
         border: 1px solid #ffb400;
-        color: hsla(0, 0%, 100%, .8);
+        color: $textSecondColor;
         transition: 0.5s;
       }
     }
+
     a.buttonSecond {
       background-color: transparent;
-      color: hsla(0, 0%, 100%, .8);
+      color: $textSecondColor;
+
       &:hover {
         background-color: $primaryColor;
         color: $bgColor;
