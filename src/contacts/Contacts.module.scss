@@ -1,4 +1,5 @@
 @import '../common/styles/sass/variables.scss';
+@import '../common/styles/sass/mixins.scss';
 
 .contactsBlock {
     background-color: $bgSecondColor;
@@ -6,8 +7,8 @@
 }
 
 .contactsContainer {
-    flex-direction: column;
-    justify-content: flex-start;
+    @include container();
+    @include flex(flex-start, center, column, nowrap);
 }
 
 .contactsForm {

@@ -1,10 +1,10 @@
 import React from 'react';
 import style from './Skills.module.scss';
-import styleContainer from '../common/styles/container.module.css';
 import Skill from "./skill/Skill";
 import Title from "../common/components/title/Title";
 import tsIcon from "../assets/icons/typescript.svg";
 import reduxIcon from "../assets/icons/redux_icon.svg";
+import reduxToolkitIcon from "../assets/icons/redux_toolkit.svg";
 import apiIcon from "../assets/icons/restApi.svg";
 import axiosIcon from "../assets/icons/axios_logo_icon.svg";
 import storybookIcon from "../assets/icons/file_type_storybook.svg";
@@ -19,12 +19,13 @@ function Skills() {
 
     return (
         <div id={"skills"} className={style.skillsBlock}>
-            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+            <div className={style.skillsContainer}>
                 <Title text={"My "} span={"skills"} backgroundText={"ability"}/>
                 <div className={style.skills}>
                     <Skill iconImage={tsIcon} title={"JS/TS"} description={"DOM, Immutable, event, array methods, prototype, generics, classes, promises, async/await, tests, cookies etc."}/>
-                    <Skill iconImage={reduxIcon} title={"Redux"} description={"Flow, flux, reducers, store, actions, dispatch, selectors etc."}/>
                     <Skill iconImage={reactIcon} title={"React"} description={"Hooks, props, render, functional and classes components etc."}/>
+                    <Skill iconImage={reduxIcon} title={"Redux"} description={"Flow, flux, reducers, store, actions, dispatch, selectors etc."}/>
+                    <Skill iconImage={reduxToolkitIcon} title={"Redux-Toolkit"} description={"A package that makes working with Redux easier"}/>
                     <Skill iconImage={htmlIcon} title={"CSS/HTML"} description={"Elements, attributes, formatting, borders, margins, positions, flex, grid, media etc."}/>
                     <Skill iconImage={sassIcon} title={"SASS"} description={"Mixins, variables, nesting, fragmentation, import, inheritance etc."}/>
                     <Skill iconImage={axiosIcon} title={"AXIOS"} description={"Instance, handling errors, get, post, put, delete etc."}/>

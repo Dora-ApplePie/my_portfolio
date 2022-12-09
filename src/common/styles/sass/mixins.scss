@@ -6,3 +6,17 @@
   font-weight: $fontWeight;
   line-height: $lineHeight;
 }
+
+@mixin container() {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+@mixin flex($justifyContent, $alignItems, $flexDirection, $wrap) {
+  display: flex;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
+  flex-direction: $flexDirection;
+  flex-wrap: $wrap;
+}

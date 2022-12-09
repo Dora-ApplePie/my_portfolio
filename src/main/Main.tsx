@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './Main.module.scss';
-import styleContainer from '../common/styles/container.module.css';
 
 function Main() {
     return (
@@ -10,7 +9,7 @@ function Main() {
                 <div className={style.intro}>
                     <h1>I'm DARIA GOLENKO.</h1>
                     <span>Frontend React Developer</span>
-                    <div><a target={"_blank"} href={'https://drive.google.com/file/d/1WuMPMQNtiIwxkpYCT9syV1yMH434qxC-/view?usp=sharing'} className={style.buttonCV}>OPEN CV</a></div>
+                    <div><a target={"_blank"} href={'https://drive.google.com/file/d/1Vh6i_ziWUTV0-p9TqMfwZRFfO9TyGmCp/view?usp=share_link'} className={style.buttonCV}>OPEN CV</a></div>
                 </div>
             </div>
         </div>

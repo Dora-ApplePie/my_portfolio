@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './Footer.module.scss';
-import styleContainer from '../common/styles/container.module.css'
 import Title from "../common/components/title/Title";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -13,7 +12,7 @@ import { faTelegram } from '@fortawesome/free-brands-svg-icons';
 function Footer() {
     return (
         <div className={style.footerBlock}>
-            <div className={`${style.footerContainer} ${styleContainer.container}`}>
+            <div className={style.footerContainer}>
                 <Title text={"Daria "} span={"Golenko"} backgroundText={"Resume"}/>
                 <div className={style.SocialContainer}>
                     <div><a target={"_blank"} href={"mailto:dasha-golenko@mail.ru"}><FontAwesomeIcon className={style.socialImg} icon={faEnvelope}/></a></div>
