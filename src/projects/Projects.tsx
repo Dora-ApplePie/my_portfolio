@@ -10,31 +10,38 @@ import tagsNotesImg from "../assets/image/tagsNote.png";
 
 function Projects() {
 
-    const social = {
-        backgroundImage: `url(${socialImg})`,
-    };
+    const styleHandler = (urlName: string) => {
+        return {
+            backgroundImage: `url(${urlName})`
+        }
+    }
 
-    const todolist = {
-        backgroundImage: `url(${todoImg})`,
-    };
-
-    const cardsApp = {
-        backgroundImage: `url(${cardsAppImg})`,
-    };
-
-    const taggedNotes = {
-        backgroundImage: `url(${tagsNotesImg})`,
-    };
+    const social = styleHandler(socialImg);
+    const todolist = styleHandler(todoImg);
+    const cardsApp = styleHandler(cardsAppImg);
+    const taggedNotes = styleHandler(tagsNotesImg);
 
     return (
         <div id={"projects"} className={style.projectsBlock}>
             <div className={style.projectsContainer}>
                 <Title text={"My "} span={"projects"} backgroundText={"works"}/>
                 <div className={style.projects}>
-                    <Project codeLink={'https://github.com/Dora-ApplePie/todolistApp/'} viewLink={'https://dora-applepie.github.io/todolistApp/'} style={todolist} title={"Todolist"} description={"TS, React, Redux, Hooks, Functional components, RestAPI, Thunk, Axios, Material UI, Unit Tests, Storybook, SnapShot testing."}/>
-                    <Project codeLink={'https://github.com/Dora-ApplePie/socialNetworkReact18'} viewLink={'https://dora-applepie.github.io/socialNetworkReact18/'} style={social} title={"Social network"} description={"TS, React, Redux, RestAPI, Axios, Thunk, React Class components and migrate to the Functional components, React Router DOM."}/>
-                    <Project codeLink={'https://github.com/Dora-ApplePie/cards-project'} viewLink={'https://dora-applepie.github.io/cards-project/'} style={cardsApp} title={"Cards learning App"} description={"TS, React, Redux, HTML/CSS, RestAPI, Axios, Thunk, React Router DOM, Formik, Material UI."}/>
-                    <Project codeLink={'https://github.com/Dora-ApplePie/note-with-tags'} viewLink={'https://dora-applepie.github.io/note-with-tags/'} style={taggedNotes} title={"Tagged notes"} description={"TS, React, Redux, React Functional components, HTML/SCSS, LocalStorage, Uuid."}/>
+                    <Project codeLink={'https://github.com/Dora-ApplePie/todolistApp/'}
+                             viewLink={'https://dora-applepie.github.io/todolistApp/'} style={todolist}
+                             title={"Todolist"}
+                             description={"TS, React, Redux, Hooks, Functional components, RestAPI, Thunk, Axios, Material UI, Unit Tests, Storybook, SnapShot testing."}/>
+                    <Project codeLink={'https://github.com/Dora-ApplePie/socialNetworkReact18'}
+                             viewLink={'https://dora-applepie.github.io/socialNetworkReact18/'} style={social}
+                             title={"Social network"}
+                             description={"TS, React, Redux, RestAPI, Axios, Thunk, React Class components and migrate to the Functional components, React Router DOM."}/>
+                    <Project codeLink={'https://github.com/Dora-ApplePie/cards-project'}
+                             viewLink={'https://dora-applepie.github.io/cards-project/'} style={cardsApp}
+                             title={"Cards learning App"}
+                             description={"TS, React, Redux, HTML/CSS, RestAPI, Axios, Thunk, React Router DOM, Formik, Material UI."}/>
+                    <Project codeLink={'https://github.com/Dora-ApplePie/note-with-tags'}
+                             viewLink={'https://dora-applepie.github.io/note-with-tags/'} style={taggedNotes}
+                             title={"Tagged notes"}
+                             description={"TS, React, Redux, React Functional components, HTML/SCSS, LocalStorage, Uuid."}/>
                 </div>
             </div>
         </div>
