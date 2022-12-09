@@ -1,7 +1,6 @@
 import React from 'react';
 import style from './Header.module.scss';
 import Nav from "../nav/Nav";
-import styleContainer from '../common/styles/container.module.css'
 
 function Header() {
     return (

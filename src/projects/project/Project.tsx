@@ -15,8 +15,8 @@ function Project(props: PropsType) {
     return (
         <div className={style.project}>
             <div className={style.imgContainer} style={props.style}>
-                <a href={props.viewLink} className={style.button}>Demo</a>
-                <a href={props.codeLink} className={style.buttonSecond}>Code</a>
+                <a target={"_blank"} href={props.viewLink} className={style.button}>Demo</a>
+                <a target={"_blank"} href={props.codeLink} className={style.buttonSecond}>Code</a>
             </div>
             <div className={style.projectInfo}>
                 <h3 className={style.ProjectTitle}>{props.title}</h3>
